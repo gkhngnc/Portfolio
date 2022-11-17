@@ -21,7 +21,7 @@ namespace ankaraProje.Controllers
 
         dbAnkaraPortfolioEntities db = new dbAnkaraPortfolioEntities();
 
-
+        [Authorize]
         public ActionResult SkillList()
 
         {
