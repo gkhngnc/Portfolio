@@ -9,6 +9,8 @@
         <EntityTypeShape EntityType="dbAnkaraPortfolioModel.TblSkill" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="dbAnkaraPortfolioModel.TblTestimonial" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="dbAnkaraPortfolioModel.TblAdmin" Width="1.5" PointX="3.375" PointY="3.75" />
+        <EntityTypeShape EntityType="dbAnkaraPortfolioModel.TblEmployee" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="dbAnkaraPortfolioModel.TblMessage" Width="1.5" PointX="5.375" PointY="3.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

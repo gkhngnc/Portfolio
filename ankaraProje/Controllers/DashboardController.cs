@@ -19,5 +19,9 @@ namespace ankaraProje.Controllers
             ViewBag.v4= Math.Round(decimal.Parse(db.TblSkill.Average(x => x.Value).ToString()), 2); 
             return View();
         }
+        public PartialViewResult PartialChart()
+        {
+            return PartialView();
+        }
     }
 }

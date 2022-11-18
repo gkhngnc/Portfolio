@@ -29,5 +29,7 @@ namespace ankaraProje.Models
         public virtual DbSet<TblSkill> TblSkill { get; set; }
         public virtual DbSet<TblTestimonial> TblTestimonial { get; set; }
         public virtual DbSet<TblAdmin> TblAdmin { get; set; }
+        public virtual DbSet<TblEmployee> TblEmployee { get; set; }
+        public virtual DbSet<TblMessage> TblMessage { get; set; }
     }
 }
